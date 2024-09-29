@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Pop-up Cart</title>
+    <style>
+      /* Styles for the pop-up cart */
+      .cart {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        width: 300px;
+        height: 400px;
+        background-color: white;
+        border: 1px solid black;
+        z-index: 999;
+        display: none;
+      }
+      
+      /* Styles for the button that triggers the pop-up cart */
+      .cart-button {
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+        background-color: blue;
+        color: white;
+        padding: 10px 20px;
+        cursor: pointer;
+        z-index: 999;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Button that triggers the pop-up cart -->
+    <div class="cart-button">Open Cart</div>
+    
+    <!-- Pop-up cart -->
+    <div class="cart">
+      <h2>Your Cart</h2>
+      <ul>
+        <li>Product 1</li>
+        <li>Product 2</li>
+        <li>Product 3</li>
+      </ul>
+      <button>Checkout</button>
+    </div>
+    
+    <!-- JavaScript to show/hide the pop-up cart when the button is clicked -->
+    <script>
+      const cartButton = document.querySelector('.cart-button');
+      const cart = document.querySelector('.cart');
+      
+      cartButton.addEventListener('click', function() {
+        if (cart.style.display === 'none') {
+          cart.style.display = 'block';
+        } else {
+          cart.style.display = 'none';
+        }
+      });
+    </script>
+  </body>
+</html>

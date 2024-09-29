@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Subtle | Login</title>
+  <link rel="stylesheet" href="lsup.css">
+   <!-- Font Awesome Cdn Link -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+  <section id="header"> 
+    <a href="#"><img src="img/logo.png" class="logo" alt=""</a>
+   
+    <div>
+        <ul id="navbar">
+          <li><a class="active" href="index.html">Home</a></li>
+          <li><a href="#">Find Ambulance</a></li>
+          <li><a href="#">Ambulance Locator</a></li>
+          <li><a href="#">About ARRS</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">My Account</a></li>
+          <a href="#" id="close"><i class="far fa-times"></i></a>
+
+        </ul>
+    </div>
+    <div id="mobile">
+        <a href="cart.html"><i class="fa fa-light fa-bag-shopping"></i></a>
+        <i id="bar" class="fas fa-outdent"></i>
+    </div>
+</section>
+  <div class="wrapper">
+    <h1>Login In</h1>
+    
+    <form action="login.php" method="post">
+      <input type="text" placeholder="name" name="uname">
+      <input type="password" placeholder="Password" name="pass">
+      <div class="recover">
+        <a href="#">Forgot Passowrd?</a>
+      </div>
+   
+    <input type="submit" value="Submit">
+  </form>
+    <div class="member">
+      Not a member? <a href="Singup.php">
+      Register Now
+    </a>
+    </div>
+  </div>
+<!--
+  <section id="newsletter" class="section-p1 section-m1">
+    <div class="newstext">
+    <h4>Sign Up For Newsletters</h4>
+    <p>Get E-mail updates about our latest shop and <span>special offers.</span>
+    </p>
+    </div>
+    <div class="form">
+    <input type="text" placeholder="Your email address">
+    <button class="normal">Sign Up</button>
+    </div>
+</section>
+...-->
+</body>
+</html>

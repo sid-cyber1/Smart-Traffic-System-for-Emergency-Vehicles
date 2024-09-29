@@ -1,2 +1,33 @@
-# Smart-Traffic-System-for-Emergency-Vehicles
-Traffic congestion poses a major challenge in densely populated metropolitan areas, impeding the movement of emergency vehicles such as ambulances. To address this critical issue, we propose a "Smart Traffic System for Emergency Vehicles" that leverages RF communication technology to facilitate the swift passage of ambulances through traffic signals. The system is designed with an RF transmitter installed in the ambulance, which activates automatically when the ambulance siren is turned on. Traffic lights are equipped with RF receivers that detect the signal from the approaching ambulance. When the ambulance comes within a specific range from a traffic signal, the receiver at the signal recognizes the signal from the transmitter. In response, the traffic light for the ambulance's lane turns green, while all other lanes are stopped with red signals. This mechanism ensures that the ambulance can move through intersections without delay, significantly reducing travel time in critical situations. In addition to traffic signal control, the system includes real-time GPS tracking of the ambulance. The live location of the ambulance is shared on our website, allowing hospitals and emergency response teams to monitor the ambulance's progress and prepare for the patient's arrival in advance. This feature enhances coordination between traffic management authorities and healthcare providers, ensuring a more efficient emergency response. By implementing this "Smart Traffic System for Emergency Vehicles," we aim to significantly improve the efficiency of emergency medical services, thereby saving lives and mitigating the impact of traffic congestion on critical medical emergencies
+# Build-and-Deploy-Ecommerce-Website-With-HTML-CSS-JavaScript
+
+[<img alt="Build-and-Deploy-Ecommerce-Website-With-HTML-CSS-JavaScript" width="100%" src="https://github.com/tech2etc/Youtube-Tutorials/blob/main/Build%20and%20Deploy%20Ecommerce%20Website%20With%20HTML%20CSS%20JavaScript%20Full%20Responsive%20Ecommerce%20Course%20FREE.PNG?raw=true" />](https://youtu.be/P8YuWEkTeuE/)
+
+## About this course
+LEARN HOW TO BUILD AND DEPLOY FULL RESPONSIVE ECOMMERCE WEBSITE USING HTML CSS & JAVASCRIPT. This is a free HTML CSS Course. And in this course we will learn how to build and deploy a full multipage ecommerce website completely from scratch step by step. Will Create from responsive navbar using html CSS JavaScript to responsive footer in one video.
+
+## Why This Course?
+- Responsive Ecommerce Website Tutorial Using HTML CSS & JavaScript.
+- Completely For Beginners.
+- Multipage Ecommerce Website Project.
+- Best Beginner Friendly Free Course On YouTube.
+- Learn How to build amazing professional and responsive websites.
+- Learn the fundamentals of web design.
+- Modern CSS, including flexbox and CSS Grid for layout.
+- Modern CSS techniques to create stunning designs and effects.
+- How to use common components and layout patterns for professional website design and development.
+- Advanced responsive design using media queries.
+- And Many More.
+
+## Sections
+- Part1: Responsive Home Page Design.
+- Part2: Shop Page & Single Product Page.
+- Part3: Blog Page.
+- Part4: About Page.
+- Part5: Contact Us.
+- Part6: Ecommerce Shopping Cart.
+
+Here you will find all the images I'm using to create this responsive ecommerce website. In future image folder can update.
+
+Get the full source code from [here1](https://www.buymeacoffee.com/tech2etc/e/50932).
+
+Get the full source code from [here2](https://ko-fi.com/s/06e4db9e09).
